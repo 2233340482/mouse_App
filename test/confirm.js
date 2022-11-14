@@ -1,5 +1,5 @@
 let hashNumber = 0; //ハッシュ化した学籍番号を格納する変数
-let isAgree = 0; //0:同意,1:同意していない
+let isAgree = 0; //0git config --global user.name "<ユーザー名>":同意,1:同意していない
 let isPast = 0; //0:15日以上経過している,1:15日以上経過していない
 let pastTime = 0; //最後の同意した時
 var processIDforDate = new Date();
