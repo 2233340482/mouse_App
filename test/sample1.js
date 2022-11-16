@@ -99,13 +99,13 @@ function sendInfo(mouseOverTime, mouseLeaveTime, elemOfId) {
   const img = document.createElement("img");
   const data = {
     c: hashStudentID, //個人識別用ID(学籍番号)
-    i: elemOfId,
+    i: elemOfId, //id
     s: mouseOverTime, //starttime
     e: mouseLeaveTime, //endtime
     t: getPageTitle, //閲覧しているページのタイトル
     y: userAgentTerminal, //アクセス元の端末
     z: userAgentBrowser, //アクセス元のヴラウザ
-    p: processID,
+    p: processID, ///プロセスID
   };
 
   var dataForSend = JSON.stringify(data);
